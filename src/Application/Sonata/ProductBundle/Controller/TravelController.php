@@ -21,4 +21,5 @@ use Sonata\ProductBundle\Controller\BaseProductController;
 class TravelController extends BaseProductController
 {
 
+
 }

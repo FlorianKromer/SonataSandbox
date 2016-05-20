@@ -1,3 +1,12 @@
+{% extends '::base.html.twig' %}
+
+
+
+{% block container %}
+
+<div class="container">
+{% sonata_template_box 'This is the media view template. Feel free to override it.' %}
+
 <h2>Form Media Type & SEO</h2>
 
 <div>
@@ -46,3 +55,6 @@
 <h3>Template</h3>
 
 <script src="https://gist.github.com/1896431.js?file=gistfile1.twig"></script>
+
+</div>
+{% endblock %}

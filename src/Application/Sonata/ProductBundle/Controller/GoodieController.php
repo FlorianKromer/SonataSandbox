@@ -20,5 +20,5 @@ use Sonata\ProductBundle\Controller\BaseProductController;
  */
 class GoodieController extends BaseProductController
 {
-
+    
 }
